@@ -1,0 +1,30 @@
+{
+  "name": "point-the-way",
+  "version": "1.0.0",
+  "description": "A javascript canvas puzzle game which requires the user to map a path with the given options from start to end in a simple 2d grid.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justusromijn/point-the-way.git"
+  },
+  "keywords": [
+    "javascript",
+    "canvas",
+    "game",
+    "2d",
+    "puzzle"
+  ],
+  "author": "Justus Romijn <justus.romijn@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/justusromijn/point-the-way/issues"
+  },
+  "homepage": "https://github.com/justusromijn/point-the-way#readme",
+  "devDependencies": {
+    "webpack": "^3.0.0"
+  }
+}
